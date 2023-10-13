@@ -1,0 +1,58 @@
+/* navbar */
+.menu-button {
+    width: 100px;
+    height: 111px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button img {
+    max-width: 40px;
+    cursor: pointer;
+}
+
+.typ-1 {
+    position: relative;
+    top: 44px;
+    width: 78px;
+    height: 52px;
+    color: #272742;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+    letter-spacing: 0.28px;
+}
+
+.typ-1 p {
+    transform: rotate(-90deg);
+}
+
+.typ-2 {
+    width: 61px;
+    height: 52px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 25.6px */
+    letter-spacing: 0.28px;
+}
+
+.typ-2 p {
+    transform: rotate(-90deg);
+}
+
+/* dashboard */
+.dashboard {
+    background-image: url('/public/Assets/Rectangle20.png');
+    background: url('/public/Assets/Rectangle20.png'), lightgray 50% / cover no-repeat;
+    width: 1440px;
+    height: 1024px;
+}
